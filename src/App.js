@@ -2,7 +2,7 @@ import React from "react";
 import { Provider } from "react-redux";
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 import MockBrowser from "./mock-browser";
-import AuthorizedRoute from "./AuthorizedRoute";
+import AuthorizedRoute from "./router/AuthorizedRoute";
 import store from "./stores/store";
 
 // Layouts
